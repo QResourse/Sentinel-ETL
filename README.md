@@ -1,4 +1,4 @@
-# Qualys Export QIDs to Blob Storadge 
+# Qualys Export QIDs to Blob Storage 
 
 Qualys HostAsset and VM API parser
 Parse the Detection and Hostasset API output
@@ -12,11 +12,11 @@ Parse the Detection and Hostasset API output
 pip install -r requirements.txt
 ### Edit config
 Rename the file config.xml.sample to config.xml
-Change the **BASE_URL** to the correct platfrom. See [platform-identification](https://www.qualys.com/platform-identification/)
+Change the **BASE_URL** to the correct platform. See [platform-identification](https://www.qualys.com/platform-identification/)
 Change the **USERNAME** and **PASSWORD** information
 
-SQL Will work but the driver needs to be detected by the user.
+SQL Will work, but the driver needs to be detected by the user.
 In most cases please just keep the flag **USE_SQL** set to ***false***
 
 ## Release Notes
-1.0.0 - Innitial release;
+1.0.0 - Initial release;
