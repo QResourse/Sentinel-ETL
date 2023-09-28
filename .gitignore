@@ -1,0 +1,7 @@
+export/*.csv
+export/*.xml
+export/*.pbix
+config.xml
+__pycache__
+debug.py
+*.xml
